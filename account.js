@@ -550,7 +550,6 @@ async function main() {
   report();
 }
 
-// 启动 Express 服务
 if (require.main === module) {
   main();
 }
