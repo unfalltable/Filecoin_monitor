@@ -500,7 +500,7 @@ async function report(){
         "总收益：", produce.toFixed(3),'\n', 
         "奖励锁仓收益：", syncer.attoToFil(jlscsy).toFixed(3),'\n', 
         "总销毁：", burn.toFixed(3),'\n', 
-        "可使用收益：", canUse.toFixed(3), "质押方：", (canUse * 0.55).toFixed(3), "我方：", (canUse * 0.45).toFixed(3), '\n', 
+        "可使用收益：", canUse.toFixed(3), '\n', 
         yesterday,"产出：", yesterdayProduce.toFixed(3),'\n', 
         today,"产出：", todayProduce.toFixed(3),'\n', 
       );
@@ -531,7 +531,7 @@ async function report(){
       "总收益：", allProduce.toFixed(3),'\n', 
       "奖励锁仓收益：", allJlscsy.toFixed(3),'\n', 
       "总销毁：", allBurn.toFixed(3),'\n', 
-      "可使用收益：", allCanUse.toFixed(3), "质押方：", (allCanUse * 0.55).toFixed(3), "我方：", (allCanUse * 0.45).toFixed(3), '\n', 
+      "可使用收益：", allCanUse.toFixed(3), '\n', 
       "昨日产出：", allYesterdayProduce.toFixed(3),'\n', 
       "今日产出：", allTodayProduce.toFixed(3),'\n', 
     );
